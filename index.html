@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feel Good - Kvalitní spodní prádlo pro ženy každého věku. Kamenná prodejna v Boskovicích.">
+    <title>Feel Good | Už navždy... krásná</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav" aria-label="Hlavní navigace">
+            <a href="#o-nas" class="nav__link">O nás</a>
+            <a href="#filozofie" class="nav__link">Filozofie</a>
+            <a href="/" class="nav__logo" aria-label="Feel Good">
+                <span class="logo">
+                    <span class="logo__icon" aria-hidden="true"></span>
+                    <span class="logo__text">Feel Good</span>
+                </span>
+            </a>
+            <a href="#naturana" class="nav__link">Naturana</a>
+            <a href="#kontakt" class="nav__link">Kontakt</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="mobile-nav">
+            <span class="nav-toggle__line"></span>
+            <span class="nav-toggle__line"></span>
+        </button>
+        <nav id="mobile-nav" class="nav-mobile" aria-label="Mobilní navigace">
+            <a href="#o-nas" class="nav-mobile__link">O nás</a>
+            <a href="#filozofie" class="nav-mobile__link">Filozofie</a>
+            <a href="#naturana" class="nav-mobile__link">Naturana</a>
+            <a href="#kontakt" class="nav-mobile__link">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero__content">
+                <span class="badge">Kamenná prodejna v Boskovicích</span>
+                <h1 id="hero-title" class="hero__title">
+                    <span class="hero__title-main">Už navždy...</span>
+                    <span class="hero__title-accent">krásná</span>
+                </h1>
+                <p class="hero__text">Kvalitní spodní prádlo pro ženy každého věku.<br>Prémiové značky, osobní přístup, tradice od roku 2025.</p>
+                <a href="https://www.google.com/maps/dir//Od%C4%9Bvy+ADAM,+Masarykovo+n%C3%A1m.+8%2F6,+680+01+Boskovice/@49.5005329,16.6668781,8987m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x4712628dbd4e6f89:0xbaa403450548b008!2m2!1d16.6609659!2d49.4875985?hl=cs&entry=ttu" target="_blank" rel="noopener noreferrer" class="hero__address">
+                    <span class="hero__address-icon" aria-hidden="true"></span>
+                    Masarykovo nám. 8/6, Boskovice
+                </a>
+                <a href="#kontakt" class="button button--primary">Navštivte naši prodejnu</a>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__image-container">
+                    <img src="photos/NATURANA_spring_summer_2023_original_NATURANA_5336_400_4658_400_image01_SS23 1.jpg" alt="Žena v kvalitním spodním prádle Naturana" class="hero__image" loading="eager">
+                </div>
+                <div class="hero__blob" aria-hidden="true"></div>
+            </div>
+        </section>
+
+        <section id="o-nas" class="section section--white">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__label">01</span>
+                    <h2 class="section__title">O nás</h2>
+                </header>
+                <div class="about">
+                    <div class="about__text">
+                        <p class="about__lead"><span class="text-accent">Feel Good</span> není jen obchod. Je to místo, kde se setkává kvalita s elegancí.</p>
+                        <p>V samém srdci Boskovic, na historickém Masarykově náměstí, jsme vytvořili prostor pro ženy, které hledají víc než jen spodní prádlo. Hledají pocit – ten nepopsatelný moment, kdy se cítíte přesně tak, jak chcete.</p>
+                    </div>
+                    <aside class="quote-card">
+                        <blockquote>
+                            <p>Už navždy...</p>
+                            <p class="quote-card__accent">sebevědomá</p>
+                        </blockquote>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="editorial" aria-label="Editorial">
+            <div class="editorial__grid">
+                <figure class="editorial__item editorial__item--large">
+                    <img src="photos/NATURANA_fall_winter_2024_original_NATURANA_5232_603_image02_AW24 1.jpg" alt="Žena v elegantním světlém spodním prádle s květinou" class="editorial__image" loading="lazy">
+                    <figcaption class="editorial__caption">
+                        <span class="editorial__tag">Komfort</span>
+                        <p>Prádlo, které objímá</p>
+                    </figcaption>
+                </figure>
+                <div class="editorial__item editorial__item--text">
+                    <p class="editorial__statement">Každý kousek vypráví příběh o&nbsp;péči, kvalitě a&nbsp;ženské síle</p>
+                </div>
+                <figure class="editorial__item editorial__item--small">
+                    <img src="photos/shopify_grid-square_15.webp" alt="Detail spodního prádla" class="editorial__image" loading="lazy">
+                </figure>
+            </div>
+        </section>
+
+        <section id="filozofie" class="section section--white">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__label">02</span>
+                    <h2 class="section__title">Filozofie</h2>
+                </header>
+                <div class="philosophy">
+                    <div class="philosophy__values">
+                        <article class="value-card">
+                            <h3 class="value-card__title">Už navždy... <span>pohodlná</span></h3>
+                            <p>Věříme, že komfort není kompromis. Je to základ každého dne.</p>
+                        </article>
+                        <article class="value-card">
+                            <h3 class="value-card__title">Už navždy... <span>elegantní</span></h3>
+                            <p>Elegance začíná pod oblečením. To, co nikdo nevidí, definuje, jak se cítíte.</p>
+                        </article>
+                        <article class="value-card">
+                            <h3 class="value-card__title">Už navždy... <span>autentická</span></h3>
+                            <p>Buďte samy sebou. My vám k tomu dáme ty správné základy.</p>
+                        </article>
+                    </div>
+                    <div class="philosophy__visual">
+                        <div class="brand-circle">
+                            <span>Feel</span>
+                            <span>Good</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="naturana" class="section section--cream">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__label">03</span>
+                    <h2 class="section__title">Naturana</h2>
+                </header>
+                <div class="brand">
+                    <p class="brand__lead">Jsme hrdými partnery značky <strong>Naturana</strong> – německého výrobce s více než 100letou tradicí.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat__value">100+</span>
+                            <span class="stat__label">let tradice</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__value">A-G</span>
+                            <span class="stat__label">velikosti košíčků</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__value">EU</span>
+                            <span class="stat__label">kvalita</span>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <img src="photos/shopify-meganav_2.webp" alt="Naturana kolekce" loading="lazy">
+                        <img src="photos/shopify-meganav_3.webp" alt="Naturana kolekce" loading="lazy">
+                        <img src="photos/shopify-meganav_6.webp" alt="Naturana kolekce" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner" aria-label="Výzva k akci">
+            <p class="banner__text">Už navždy...</p>
+            <p class="banner__accent">spokojená</p>
+        </section>
+
+        <section id="kontakt" class="section section--white">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__label">04</span>
+                    <h2 class="section__title">Kontakt</h2>
+                </header>
+                <div class="contact">
+                    <div class="contact__info">
+                        <div class="contact__block">
+                            <h3 class="contact__label">Navštivte nás</h3>
+                            <a href="https://www.google.com/maps/dir//Od%C4%9Bvy+ADAM,+Masarykovo+n%C3%A1m.+8%2F6,+680+01+Boskovice/@49.5005329,16.6668781,8987m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x4712628dbd4e6f89:0xbaa403450548b008!2m2!1d16.6609659!2d49.4875985?hl=cs&entry=ttu" target="_blank" rel="noopener noreferrer" class="contact__link">
+                                <address>Masarykovo nám. 8/6<br>680 01 Boskovice</address>
+                            </a>
+                        </div>
+                        <div class="contact__block">
+                            <h3 class="contact__label">Otevírací doba</h3>
+                            <p>Po – Pá: 9:00 – 17:30<br>So: 9:00 – 12:00</p>
+                        </div>
+                        <div class="contact__block">
+                            <h3 class="contact__label">Provozovatel</h3>
+                            <p>Textil na míru s.r.o.<br><span class="text-muted">IČO: 22472916</span></p>
+                        </div>
+                    </div>
+                    <div class="contact__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4893.436449590927!2d16.661009000000004!3d49.487643999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712628dbd4e6f89%3A0xbaa403450548b008!2sOd%C4%9Bvy%20ADAM!5e1!3m2!1scs!2scz!4v1769619852119!5m2!1scs!2scz" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa prodejny Feel Good"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <div class="footer__brand">
+                <span class="logo">
+                    <span class="logo__icon" aria-hidden="true"></span>
+                    <span class="logo__text">Feel Good</span>
+                </span>
+                <p class="footer__tagline">Už navždy... vy</p>
+            </div>
+            <nav class="footer__nav" aria-label="Patička">
+                <a href="#o-nas">O nás</a>
+                <a href="#naturana">Naturana</a>
+                <a href="#kontakt">Kontakt</a>
+            </nav>
+            <p class="footer__legal">&copy; 2026 Feel Good. Provozuje Textil na míru s.r.o.</p>
+        </div>
+        <p class="footer__credit">Web vytvořil <a href="https://www.zapniweb.cz/" target="_blank" rel="noopener noreferrer">zapniweb.cz</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
